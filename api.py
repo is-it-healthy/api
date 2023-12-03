@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException, Query
 app = FastAPI()
 
 def get_latest_data():
-    url = "https://github.com/is-it-healthy/data/releases/download/v1/dat/data.json"
+    url = "https://github.com/is-it-healthy/data/releases/download/v1.dat/data.json"
     response = requests.get(url)
     if response.status_code == 200:
         return response.json()
