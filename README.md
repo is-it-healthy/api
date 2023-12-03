@@ -1,5 +1,10 @@
 # is it healthy? | API
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hirusha-adi/is-it-healthy/main/artwork/android/res/mipmap-xxxhdpi/ic_launcher.png" width="250">
+  <h2>is it healthy?</h2>
+</div>
+
 This is a FastAPI application providing an API to retrieve and create data about various items. The data is sourced from a JSON file and can be accessed easily!
 
 ## Getting Started
